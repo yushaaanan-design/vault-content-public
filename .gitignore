@@ -1,0 +1,26 @@
+﻿# Secrets and local-only files (never commit)
+cookies.txt
+.telegram-token
+.env
+.env.*
+*.pem
+*.key
+**/.obsidian/plugins/obsidian-local-rest-api/data.json
+# Obsidian per-device state
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+.trash/
+# Big media and binaries
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.db
+node_modules/
+.DS_Store
